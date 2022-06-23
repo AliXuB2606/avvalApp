@@ -1,17 +1,17 @@
 <template>
   <div>
-      <div class="col q-mt-xl">
-        <div class="row row  justify-center items-center content-center">
-            <div class="foto q-mt-xl">
+      <div class="w-100pr col q-mt-xl">
+        <div class="row w-47pr row  justify-center items-center content-center">
+            <div class="foto w-90pr q-mt-xl">
 
-              <img src="https://xtrm.foxthemes.me/wp-content/uploads/2019/02/bitmap.png" alt="" class="img">
+              <img src="https://xtrm.foxthemes.me/wp-content/uploads/2019/02/bitmap.png" alt="" class="img w-100pr">
 
             </div>
         </div>
 
 
 
-        <div class="red q-ml-lg">
+        <div class="red w-50pr q-ml-lg">
             <div class="text-h4">
                 Cool Pink Glasses
             </div>
@@ -23,8 +23,8 @@
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
             </div>
             <div class="q-mt-lg">
-              <input type="number" name="" id="" class="input">
-              <button class="btn">ADD TO CART</button>
+              <input type="number" name="" id="" class="input w-60px">
+              <button class="btn w-170px fs-15px">ADD TO CART</button>
             </div>
             <q-separator class="q-mt-lg" inset=""/>
             <div class="text-subtitle2 q-mt-md">
@@ -48,41 +48,40 @@ export default {
 </script>
 <style scoped>
 .col{
-  width: 100%;
+
   height: 550px;
   display: flex;
 }
 .row{
-  width: 47%;
+
   height: 500px;
   background-color: rgb(245, 242, 242);
 }
 .red{
-  width: 50%;
+
   height: 500px;
 
 }
 .foto{
-  width: 90%;
+
   height: 300px;
 
 }
 .img{
-  width:100%;
+
   height: auto;
   background-position: center;
   background-size: cover;
 }
 .input{
-  width: 60px;
+
   height: 51px;
 }
 .btn{
-width: 170px;
+
 height: 51px;
 border: none;
 background-color:  orangered;
-font-size: 15px;
 color: white;
 }
 .btn:hover{
