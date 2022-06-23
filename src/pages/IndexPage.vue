@@ -18,8 +18,8 @@
       <!-- koroche -->
     <div class=" q-mt-xl fit row no-wrap justify-center items-center content-center">
       <div class="fit row no-wrap justify-center items-center content-center">
-        <div class="kottaDiv fit inline no-wrap justify-start items-center">
-             <span class="text-h6 spaan "> about us</span>
+        <div class="ml-250px fit inline no-wrap justify-start items-center">
+             <span class="text-h6 mb-10px "> about us</span>
             <br>
 
            <span class="text-h5  "> When Snowboard is <span class="span">Your life</span></span>
@@ -39,7 +39,7 @@
 
         </div>
         <div>
-          <div class="q-pa-md video ">
+          <div class="q-pa-md mr-250px mt-150px ">
             <q-video style="width:450px; height:350px"
               :ratio="16/9"
               src="https://www.youtube.com/embed/1P1MLBFWvj4"
@@ -50,10 +50,10 @@
       </div>
     </div>
     <div>
-      <q-img class="img11" src="https://s1.1zoom.ru/b4040/282/Snowboarding_Winter_Snow_Jump_Jacket_Glasses_512863_2048x1152.jpg">
-        <div class=" word column text-dark absolute-full  flex flex-center">
+      <q-img class="mt-250px" src="https://s1.1zoom.ru/b4040/282/Snowboarding_Winter_Snow_Jump_Jacket_Glasses_512863_2048x1152.jpg">
+        <div class=" ml-500px column text-dark absolute-full  flex flex-center">
           <span class="text-h5">Events</span><br>
-          <span class="text-h3 ">The Legendary Tyler Durden's <br> <span class="span111" >Workshop</span></span>
+          <span class="text-h3 ">The Legendary Tyler Durden's <br> <span class="span111 mt-250px" >Workshop</span></span>
           <span class="q-mt-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur odio iusto ad ullam eveniet <br> assumenda reiciendis dolorem, perspiciatis aliquam, inventore ratione dolor. Perferendis quod <br> a dolor repellendus illo! Tempore beatae quaerat odit fugiat autem at.</span>
           <div class="q-mt-xl">
             <q-btn class="q-mx-md" color="black" size="" text-color="white" label="Buy Now"  />
@@ -85,7 +85,7 @@
 
 
     </div>
-    <Corusel class="carusel"/>
+    <Corusel class="mt-100px"/>
     <!-- <div class="">
           <div class="text-h4 kotta">
 
@@ -416,14 +416,14 @@
       </div> -->
       <Card/>
 
-      <div class="Ali">
+      <div class="mr-600px  mb-100px">
         <div class="fit column wrap justify-center items-center content-center">
-          <span class="text-h6 text-weight-bold class q-mb-md">newsletter</span>
+          <span class="text-h6 text-weight-bold mr-340px q-mb-md">newsletter</span>
           <span>A well-executed brand strategy affects all aspects of a business and is <br> connected to consumer needs & emotions.</span>
         </div>
         <div class="fit row wrap justify-center items-center content-center">
           <q-input class="q-mt-xl q-ml-xl" style="width:350px" v-model="text" label="Your-email" />
-          <q-btn class=" button q-mt-xl" style="background: yellow; color: white" icon=" arrow_upward" />
+          <q-btn class=" mt-75px mr-105px q-mt-xl" style="background: yellow; color: white" icon=" arrow_upward" />
         </div>
       </div>
 
@@ -455,57 +455,35 @@ export default {
   top: 0;
   height: 90vh;
 }
-.div{
-  margin-left: 350px;
-}
-.span1{
-  margin-top: 250px;
-}
+
+
 .q-img__content > div{
   background: transparent;
 }
-.epta{
-  margin-bottom: 50px;
-}
+
 .content-around{
   align-content: center;
 }
-.img11{
-  margin-top: 250px;
-}
+
 .span111{
   color: black;
   background-color: yellow;
-  margin-top: 250px;
+
 }
 .text-h3{
   line-height:1.5 ;
 }
-.kottaDiv{
-  margin-left: 250px;
-}
-.video{
-  margin-right: 250px;
-  margin-top: 150px;
-}
-.spaan{
-  margin-bottom: 100px;
-}
-.word{
-  margin-left: 500px;
-}
-.carusel{
-  margin-top: 100px;
-}
-.kotta{
+
+
+/* .kotta{
   margin-top: 250px;
   margin-left: 100px;
   margin-bottom: 50px;
-}
-.wp-post-image{
+} */
+/* .wp-post-image{
   margin-left: 50px;
-}
-.onsale{
+} */
+/* .onsale{
   margin-left: 150px;
   background-color: black;
   color: white;
@@ -535,8 +513,8 @@ export default {
 }
 .sn{
   margin-top: 15px;
-}
-.ebaaa{
+} */
+/* .ebaaa{
   margin-left: 75px;
 }
 .ebaaa1{
@@ -550,27 +528,18 @@ export default {
 }
 .ebaaa4{
   margin-left: 155px;
-}
-.rasm{
+} */
+/* .rasm{
   margin-top: 300px;
-}
-.cardlar{
+} */
+/* .cardlar{
 margin-top: 150px;
 margin-left: 375px;
 }
 .cardlar1{
 margin-top: 150px;
 margin-left: 150px;
-}
-.class{
-  margin-right: 340px;
-}
-.Ali{
-  margin-right: 600px;
-  margin-bottom: 100px;
-}
-.button{
-  margin-top: 75px;
-  margin-right: 105px;
-}
+} */
+
+
 </style>
